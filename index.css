@@ -1,33 +1,32 @@
-
-.navbar-brand{
+.navbar-brand {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif f !important;
 }
 
-.sect1{
-  height: 600px;
+.sect1 {
+  min-height: 650px;
   border: 1px solid black;
 }
 
 
-.exp-div{
+.exp-div {
   border: 1px solid black;
   margin-top: 180px;
-  box-shadow: 2px 2px 6px 6px  grey;
+  box-shadow: 2px 2px 6px 6px grey;
   height: 300px;
   border-radius: 30px;
   margin-right: 50px;
   margin-left: 50px;
-  
+
 }
 
-.sect2{
+.sect2 {
   margin-top: 50px;
   height: 1600px;
   /* border: 1px solid black; */
   background-color: rgb(202, 200, 200) !important;
 }
 
-.slide{
+.slide {
   position: relative;
   display: flex;
   overflow: hidden;
@@ -41,7 +40,7 @@
 
 }
 
-.slide-content{
+.slide-content {
   position: absolute;
   top: 0;
   left: 0;
@@ -56,14 +55,70 @@
   transition: transform 0.3s ease;
 }
 
-.slide:hover .slide-content{
+.slide:hover .slide-content {
   transform: translate(0, 0);
 }
 
-.slide-top .slide-content{
+.slide-top .slide-content {
   transform: translate(0, 100%);
 }
 
-.inpt1{
-  box-shadow: 2px 2px 6px 6px  grey;
+.inpt1 {
+  box-shadow: 2px 2px 6px 6px grey;
+}
+
+@media (max-width: 425px) {
+  .new-ddiv {
+    flex-wrap: wrap;
+    /* text-align: center; */
+    margin-left: 80px;
+  }
+  .images00{
+    width: 600px;
+    
+  }
+  .new-inner-ddiv1,
+  .exp-div {
+    width: 100%;
+  }
+
+  .exp-div {
+    height: 660px;
+    /* width: 800px; */
+
+  }
+
+  .m-screen {
+    display: flex;
+    flex-direction: column;
+
+
+  }
+
+  .first-d1 {
+    text-align: center;
+  }
+
+  .first-d2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .new-inner-ddiv1{
+    text-align: center;
+  }
+
+  .a-a {
+    margin-left: 90px;
+  }
+
+  /* .div-000{
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .sect2{
+    height: 800px;
+  }
+
 }
